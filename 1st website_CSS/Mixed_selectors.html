@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        p{
+            color: blue;
+            background-color: aqua;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #first{
+            color: blue;
+            background-color:burlywood
+        }
+        .third{
+            color: blue;
+            background-color: bisque;
+            font-style: italic;
+        }
+        .second{
+            color:burlywood;
+            background-color: blueviolet;
+        }
+        #three, li{
+            font-size: larger;
+            color: blue;
+        }
+        #four{
+            color:brown;
+            font-weight: bold;
+            
+        }
+        input{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        input[type="password"]{
+            color:red;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h2>Inline and Internal Selector</h2>
+    <div>
+        <ul>
+            <li>Inline Selector</li>
+            <li>Internel Selector</li>
+            <li id="three">External Selector</li>
+            <li id="four">Universal Selector</li>
+        </ul>
+    </div>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus eligendi ullam quia corporis 
+        velit consequuntur accusantium minima repellat quod! Quas fuga doloremque vitae iusto corrupti 
+        officia sed nam eveniet!</p>
+    <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus eligendi ullam quia corporis 
+        velit consequuntur accusantium minima repellat quod! Quas fuga doloremque vitae iusto corrupti 
+        officia sed nam eveniet!</p>
+    <p class="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus eligendi ullam quia corporis 
+        velit consequuntur accusantium minima repellat quod! Quas fuga doloremque vitae iusto corrupti 
+        officia sed nam eveniet!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus eligendi ullam quia corporis 
+        velit consequuntur accusantium minima repellat quod! Quas fuga doloremque vitae iusto corrupti 
+        officia sed nam eveniet!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus eligendi ullam quia corporis 
+        velit consequuntur accusantium minima repellat quod! Quas fuga doloremque vitae iusto corrupti 
+        officia sed nam eveniet!</p>
+        <form>
+            <input type="text"><br>
+            <input type="password"><br>
+        </form>
+</body>
+</html>

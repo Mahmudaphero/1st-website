@@ -1,0 +1,39 @@
+
+*{
+    margin:10px;
+}
+.header{
+    background-image:url(../images/pictures/pic\ 3.jpeg);
+    height:300px;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: overline;
+    text-align: center;
+}
+.blog{
+    color: red;
+    background-color: aquamarine;
+    padding:10px;
+    border: 5px dotted red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px violet;
+
+
+
+}
+.second{
+   /*display: none;*/
+    visibility: hidden;
+}
+.incident{
+    border: 2px solid red;
+    margin:10px;
+    display:inline-block;
+    height:50px
+}
+li{
+    display:inline;
+}
